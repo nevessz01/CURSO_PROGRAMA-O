@@ -1,2 +1,2 @@
-# CURSO_PROGRAMA-O
+# CURSO_PROGRAMACAO
 Curso Programação Senai
