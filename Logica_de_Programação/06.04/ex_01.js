@@ -37,6 +37,24 @@ var maiorOuIgual = 2 >= 2;
 console.log("Maior ou igual: " + maiorOuIgual);
 
 //Operação de menor ou igual (<=)
-var maiorOuIgual = 2 <= 3;
+var menorOuIgual = 2 <= 3;
 console.log("Menor ou igual: " + menorOuIgual);
+
+console.log("---- Operadores Lógicos ----")
+var boaComunicacao = true, trabalhoEmEquipe = false;
+
+//Operação de conjução (E)
+var conjuncao = boaComunicacao && trabalhoEmEquipe;
+console.log("Conjução (E): " + conjuncao);
+
+//Operação de disjunção
+var disjuncao = boaComunicacao || trabalhoEmEquipe;
+console.log ("Disjunção (OU): " + disjuncao)
+
+//Operação de negação (!)
+var negacao = !trabalhoEmEquipe;
+console.log("Negação: " + negacao);
+
+var negacao2 = !conjuncao;
+console.log("Negação + Conjunção: " + negacao2);
 
